@@ -7,44 +7,235 @@ body {
     font-family: Arial, serif;
 }
 
+main {
+    background-color: #020303;
+}
 
+.font-size-0 {
+    font-size: 0;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.header {
+    padding: 30px 0 30px;
+}
 
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.header .logo {
+    margin-right: 282px;
+}
 
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.header .menu ul {
+    list-style: none;
+    margin-left: -30px;
+    margin-right: -30px;
+}
 
+.header .menu ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
 
+.header a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fdefd5;
+}
 
+/* section main */
+.main {
+    padding: 133px 0 125px;
+}
 
+.main h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    padding-bottom: 74px;
+}
 
+.main h1 span {
+    color: #ffaf18;
+}
 
+.main-title {
+    max-width: 564px;
+    padding-right: 22px;
+    display: inline-block;
+    vertical-align: bottom;
+}
 
+.main-icons {
+    margin: 0 -50px;
+    padding-bottom: 92px;
+}
 
+.main-icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 50px;
+}
 
+.main-icon img {
+    padding-right: 11px;
+    vertical-align: middle;
+}
 
+.main-icon span {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+}
 
+.button {
+    background-color: #ffaf18;
+    border: none;
+    border-radius: 9999px;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+}
 
+.button.button-main {
+    width: 224px;
+    padding: 22px;
+}
 
+.main-picture {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -45px;
+}
 
+/* section products */
+.products {
+    padding: 120px 0;
+}
 
+h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-bottom: 60px;
+}
 
+.products h2 {
+    text-align: center;
+}
 
+.products-items {
+    margin: -12px;
+}
 
+.products-item {
+    margin: 12px;
+    display: inline-block;
+    width: 282px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px 15px;
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    background-color: white;
+}
 
+.products-item-image {
+    padding-bottom: 30px;
+}
 
+.products-item-title {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    padding-bottom: 17px;
+}
 
+.products-item-description {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    padding-bottom: 15px;
+    height: 51px;
+}
 
+.button.button-product {
+    width: 100%;
+    padding: 17px;
+}
 
+/* section info */
+.info {
+    padding: 120px 0 67px;
+}
 
+.info-text {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 48px;
+    max-width: 384px;
+}
 
+.info-text h2 {
+    line-height: 1.286;
+}
 
+.info-text p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    padding-bottom: 100px;
+}
 
+.info h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    padding-bottom: 40px;
+}
 
+.info-icons div {
+    background-color: white;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+}
 
+.info-icon-onigiri {
+    background-image: url("../assets/images/onigiri_black.png");
+}
 
+.info-icon-sushi {
+    background-image: url("../assets/images/sushi_black.png");
+}
 
+.info-icon-tuna {
+    background-image: url("../assets/images/tuna_black.png");
+}
+
+.info-image {
+    display: inline-block;
+    vertical-align: bottom;
+}
 
 
 
