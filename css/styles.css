@@ -56,6 +56,11 @@ main {
     color: #fdefd5;
 }
 
+.header a:hover {
+    color: #ffaf18;
+    border-bottom: 2px solid;
+}
+
 /* section main */
 .main {
     padding: 133px 0 125px;
@@ -111,6 +116,11 @@ main {
     font-weight: bold;
 }
 
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 18px 20px -2px #ffaf1860;
+}
+
 .button.button-main {
     width: 224px;
     padding: 22px;
@@ -154,6 +164,14 @@ h2 {
     background-color: white;
 }
 
+.products-item:first-child, .products-item:last-child {
+    border-color: #ffaf18;
+}
+
+.products-item:hover {
+    box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+}
+
 .products-item-image {
     padding-bottom: 30px;
 }
@@ -162,7 +180,7 @@ h2 {
     font-size: 18px;
     color: rgb(24, 26, 26);
     font-weight: bold;
-    padding-bottom: 17px;
+    padding-bottom: 15px;
 }
 
 .products-item-description {
@@ -221,6 +239,10 @@ h2 {
     margin-right: 40px;
 }
 
+.info-icons a div:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
 .info-icon-onigiri {
     background-image: url("../assets/images/onigiri_black.png");
 }
@@ -254,29 +276,3 @@ h2 {
     font-size: 12px;
     color: rgb(44, 44, 44);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
