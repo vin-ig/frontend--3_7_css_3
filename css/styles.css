@@ -20,6 +20,7 @@ main {
     margin: 0 auto;
 }
 
+/* header */
 .header {
     padding: 30px 0 30px;
 }
@@ -237,10 +238,22 @@ h2 {
     vertical-align: bottom;
 }
 
+/* footer */
+.footer {
+    background: black;
+    padding: 30px 0;
+}
 
+.footer .logo {
+    margin-right: 390px;
+}
 
-
-
+.footer .rights {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+}
 
 
 
